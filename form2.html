@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Two-Page Form</title>
+    <link rel="stylesheet" href="form2.css">
+</head>
+<body>
+    <div class="container">
+        <div class="form-left">
+            <h2>General Information</h2>
+            <form>
+                <label for="title">Title:</label>
+                <input type="text" id="title" name="title">
+                
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="first-name">First Name:</label>
+                        <input type="text" id="first-name" name="first-name">
+                    </div>
+                    <div class="form-group">
+                        <label for="last-name">Last Name:</label>
+                        <input type="text" id="last-name" name="last-name">
+                    </div>
+                </div>
+
+                <label for="position">Position:</label>
+                <input type="text" id="position" name="position">
+                
+                <label for="company">Company:</label>
+                <input type="text" id="company" name="company">
+                
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="business-arena">Business Arena:</label>
+                        <input type="text" id="business-arena" name="business-arena">
+                    </div>
+                    <div class="form-group">
+                        <label for="employees">Employees:</label>
+                        <input type="number" id="employees" name="employees">
+                    </div>
+                </div>
+            </form>
+        </div>
+        
+        <div class="form-right">
+            <h2>Contact Details</h2>
+            <form>
+                <label for="street">Street:</label>
+                <input type="text" id="street" name="street">
+                
+                <label for="additional-info">Additional Information:</label>
+                <input type="text" id="additional-info" name="additional-info">
+                
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="zip-code">Zip Code:</label>
+                        <input type="text" id="zip-code" name="zip-code">
+                    </div>
+                    <div class="form-group">
+                        <label for="place">Place:</label>
+                        <input type="text" id="place" name="place">
+                    </div>
+                </div>
+
+                <label for="country">Country:</label>
+                <input type="text" id="country" name="country">
+                
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="code">Code:</label>
+                        <input type="text" id="code" name="code">
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone Number:</label>
+                        <input type="tel" id="phone" name="phone">
+                    </div>
+                </div>
+                
+                <label for="email">Your Email:</label>
+                <input type="email" id="email" name="email">
+                
+                <label class="checkbox-label">
+                    <input type="checkbox" name="terms">
+                    I do accept Terms and Conditions of your site.
+                </label>
+                
+                <button type="submit">Register Badge</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
